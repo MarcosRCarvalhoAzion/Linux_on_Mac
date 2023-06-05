@@ -1,0 +1,4 @@
+nvidia-driver-390
+xserver-xorg-video-nouveau
+bcmwl-kernel-source
+https://github.com/patjak/facetimehd/wiki/Installation#get-started-on-debian
