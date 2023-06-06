@@ -10,7 +10,7 @@
 ###############################################
 echo "Instalando dependencias..."
 apt update
-apt install linux-headers-generic git kmod libssl-dev checkinstallpt install xz-utils curl cpio make -y
+apt install linux-headers-generic git kmod libssl-dev checkinstall install xz-utils curl cpio make -y
 apt install xserver-xorg-video-nouveau -y
 apt install nvidia-driver-390 -y
 apt install bcmwl-kernel-source -y
