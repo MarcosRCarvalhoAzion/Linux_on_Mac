@@ -16,18 +16,33 @@ apt install nvidia-driver-390 -y
 apt install bcmwl-kernel-source -y
 
 echo "Baixando driver bcwc_pcie"
+
+git clone https://github.com/patjak/facetimehd-firmware.git
+
+cd facetimehd-firmware
+
+make 
+
+make install 
+
+cd ..
+
 git clone https://github.com/patjak/bcwc_pcie.git
+
 cd bcwc_pcie
 
 echo "Compilando modulos"
+
 make
 
 echo "Instalando Pacotes"
+
 make install
 
 depmod
 
 echo "Carregando modulo"
+
 modprobe facetimehd
 
 echo "Modulo Instalado com sucesso!"
