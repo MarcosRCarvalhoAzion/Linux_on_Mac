@@ -1,0 +1,5 @@
+Executar como root
+
+# add-apt-repository universe
+# add-apt-repository multiverse
+# add-apt-repository restricted
